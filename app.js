@@ -10,7 +10,7 @@ var usersRouter = require('./routes/users');
 const mongoose = require('mongoose');
 const { error } = require('console');
 
-mongoose.connect('mongodb+srv://pumbhadiyadivyesh:<password>@cluster0.nyww4cw.mongodb.net/?retryWrites=true&w=majority')
+mongoose.connect('mongodb+srv://pumbhadiyadivyesh:e-commers@cluster0.nyww4cw.mongodb.net/E-commers?retryWrites=true&w=majority')
   .then(() => console.log('Connected!'))
   .catch((error)=>{
     console.log(error.message);
